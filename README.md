@@ -21,3 +21,10 @@ motors, relays, light sensors, laser diodes, loud speakers, microphones, & more.
 ## Terms
 - EEPROM - electrically erasable read-only memory
 
+## Flasher
+All the folders are Arduino sketches except for the custom library: `Flasher`.
+The `use_custom_library` sketch provides an example for running this library.
+To use a custom library, place it at one of the following locations:
+- `~/Arduino/libraries` (Ubuntu)
+- `MyDocuments\Arduino` (Windows)
+- `Documents/Arduino/` (macOS)
