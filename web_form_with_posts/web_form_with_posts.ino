@@ -1,4 +1,6 @@
-// Turn D3-D7 on/off using Web Form
+/* 
+ * Turn pins D3-D7 on/off using a web form.
+ */
 #include <SPI.h>
 #include <Ethernet.h>
 
@@ -135,7 +137,7 @@ boolean pageNameIs(char* name)
 
 int valueOfParam(char param)
 {
-  for(int i = 0; i < strLen(line1); i++)
+  for(int i = 0; i < strlen(line1); i++)
   {
     if(line1[i] == param && line1[i+1] == '=')
     {
